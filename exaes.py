@@ -25,7 +25,7 @@ def decriptografar(textocifrado, chave):
     return dados_originais
  
 # Exemplo de uso -  prefixo b-seq. de bytes
-msg = b"oi prfeosser"
+msg = b"Mensagem teste - demonstracao criptografia 32"
 # Gera uma chave aleatória de 256-bit (32-byte)
 # Tamanho de chave suportado: 16, 24, and 32 bytes.
 # 128-bit (16 bytes), 192-bit (24 bytes). 256-bit (32 bytes)
